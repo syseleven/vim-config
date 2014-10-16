@@ -239,6 +239,8 @@ filetype plugin indent on
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'active_filetypes': ['ruby', 'python', 'puppet']}
 
+let g:syntastic_puppet_puppetlint_args = '--no-80chars-check --no-variables_not_enclosed-check --no-unquoted_resource_title-check --no-class_inherits_from_params_class-check --no-autoloader_layout-check --no-nested_classes_or_defines-check --no-quoted_booleans-check'
+
 "E117: Unknown function: pathogen#infect
 " DO NOT DISABLE THIS FUNCTION, use "su -" or set HOME=/root to workaround
 " error-message
