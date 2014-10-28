@@ -247,3 +247,6 @@ let g:syntastic_puppet_puppetlint_args = '--no-80chars-check --no-variables_not_
 call pathogen#infect()
 
 colorscheme ron
+
+" enable this to DISABLE jedi-python (python autocompletion)
+" let g:jedi#auto_initialization = 0
