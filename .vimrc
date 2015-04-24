@@ -144,6 +144,8 @@ endif
 " {{{ Autocommands
 if has("autocmd")
 
+autocmd BufRead,BufNewFile *.adoc setlocal filetype=asciidoc
+
 augroup gentoo
   au!
 
