@@ -145,6 +145,7 @@ endif
 if has("autocmd")
 
 autocmd BufRead,BufNewFile *.adoc setlocal filetype=asciidoc
+autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 augroup gentoo
   au!
